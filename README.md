@@ -1,8 +1,8 @@
 # Android ImGui Overlay
 
-免 root 的 Android ImGui 悬浮窗模板。Java 管理权限、前台服务和系统窗口，C++ 通过 Vulkan 渲染 ImGui。直接生成并安装 APK，不需要启动 ELF、使用 shell 特权或读取物理输入设备。
+免 root 的 Android ImGui 悬浮窗模板。Java 管理权限、前台服务和系统窗口，C++ 通过 Vulkan 渲染 ImGui。直接生成并安装 APK。
 
-**许可：源码公开，限非商业用途。** 本项目沿用原工程的非商业许可证，允许学习、个人使用和非商业修改、再分发；商业使用需要取得版权所有者的单独书面授权。它不属于允许商用的 OSI 开源许可。完整条款见 [LICENSE](LICENSE)。
+**许可：源码公开，限非商业用途。** 本项目采用非商业许可证，允许学习、个人使用和非商业修改、再分发；商业使用需要取得版权所有者的单独书面授权。它不属于允许商用的 OSI 开源许可。完整条款见 [LICENSE](LICENSE)。
 
 ## 环境与构建
 
@@ -110,9 +110,9 @@ Android 12+ 对不接收触摸的悬浮窗实施遮挡检查。实测设备把�
 
 本机验证结果及未验证项目见 `VALIDATION.md`。构建与静态检查通过不能替代设备侧验证，尤其是双 context 后端、厂商 Vulkan 驱动、触摸遮挡和输入法表现。
 
-## 来源与许可
+## 许可与第三方组件
 
-复用源码、字体的来源及显著修改见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。原工程非商业许可证保留在 [LICENSE](LICENSE)，Dear ImGui 的 MIT 许可证位于 `app/src/main/cpp/vendor/imgui/LICENSE.txt`。中文字体使用官方 Noto CJK 仓库提供的 Noto Sans SC Regular（SIL OFL 1.1），字体原文许可证随 APK 打包在 `assets/OFL-NotoSansSC.txt`。
+项目许可见 [LICENSE](LICENSE)，组件来源和许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。Dear ImGui 的 MIT 许可证位于 `app/src/main/cpp/vendor/imgui/LICENSE.txt`。中文字体使用官方 Noto CJK 仓库提供的 Noto Sans SC Regular（SIL OFL 1.1），字体原文许可证随 APK 打包在 `assets/OFL-NotoSansSC.txt`。
 
 ## 自动构建
 
