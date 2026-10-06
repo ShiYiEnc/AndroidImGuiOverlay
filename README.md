@@ -112,7 +112,7 @@ Android 12+ 对不接收触摸的悬浮窗实施遮挡检查。实测设备把�
 
 ## 来源与许可
 
-原 ELF 目录没有被修改。复用源码、字体的来源及显著修改见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。原工程非商业许可证保留在 [LICENSE](LICENSE)，Dear ImGui 的 MIT 许可证位于 `app/src/main/cpp/vendor/imgui/LICENSE.txt`。中文字体使用官方 Noto CJK 仓库提供的 Noto Sans SC Regular（SIL OFL 1.1），字体原文许可证随 APK 打包在 `assets/OFL-NotoSansSC.txt`。
+复用源码、字体的来源及显著修改见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。原工程非商业许可证保留在 [LICENSE](LICENSE)，Dear ImGui 的 MIT 许可证位于 `app/src/main/cpp/vendor/imgui/LICENSE.txt`。中文字体使用官方 Noto CJK 仓库提供的 Noto Sans SC Regular（SIL OFL 1.1），字体原文许可证随 APK 打包在 `assets/OFL-NotoSansSC.txt`。
 
 ## 自动构建
 
